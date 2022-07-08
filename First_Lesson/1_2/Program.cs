@@ -1,13 +1,11 @@
-﻿Console.WriteLine("Write a number a ");
-string s_a=(Console.ReadLine());
-int a=int.Parse(s_a);
-Console.WriteLine("Write a number b ");
-string s_b=(Console.ReadLine());
-int b=int.Parse(s_b);
+﻿Console.WriteLine("Write a number a: ");
+int a=int.Parse(Console.ReadLine());
+Console.WriteLine("Write a number b: ");
+int b=int.Parse(Console.ReadLine());
 if(a==b*b)
 {
-    Console.WriteLine("верно");
+    Console.WriteLine("является квадратом");
 }
 else{
-   Console.WriteLine("неверно"); 
+   Console.WriteLine("не является квадратом"); 
 }
