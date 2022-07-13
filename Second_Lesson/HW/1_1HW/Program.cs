@@ -4,15 +4,6 @@
 782 -> 8
 918 -> 1*/
 
-
-/*int SecondDigit(int Number){
-              return ((Number/10)%10); 
-        }
-Console.WriteLine("Write a three-digit number: ");
-int a=int.Parse(Console.ReadLine());
-Console.WriteLine(SecondDigit(a));*/
-
-
 void SecondDigit(int Number){
         Double b=Number/100;
         if(1<=b && b<10)
