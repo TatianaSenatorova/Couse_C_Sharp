@@ -40,7 +40,7 @@ int[,] MassNums(int row,  int column, int from, int to)
 
 int[,] NewArray(int[,] arr)
 {
-  int row_size = arr.GetLength(0);
+int row_size = arr.GetLength(0);
 int column_size = arr.GetLength(1);
 
   for (int i = 1; i < row_size; i += 2)
