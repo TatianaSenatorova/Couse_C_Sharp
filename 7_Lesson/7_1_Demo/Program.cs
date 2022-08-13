@@ -18,6 +18,8 @@ int[,] MassNums(int row,  int column, int from, int to)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
         arr[i, j] = new Random().Next(-10, 100);
+          Console.Write($"{arr[i, j]} ");
+        Console.WriteLine();
     }
     return arr;
 }
